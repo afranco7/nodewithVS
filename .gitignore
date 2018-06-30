@@ -151,6 +151,9 @@ dlldata.c
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
 
+## Typescript
+dist
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json

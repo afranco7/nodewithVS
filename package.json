@@ -4,7 +4,10 @@
   "description": "this is a workshop about NPM and VisualStudio",
   "main": "index.js",
   "scripts": {
-    "test": "protractor protractor.config.js"
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "test": "npm run build && protractor dist/protractor/config.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +16,7 @@
   "keywords": [
     "node",
     "visual",
-    "studio",    
+    "studio",
     "visualStudio",
     "protractor"
   ],
@@ -25,5 +28,10 @@
   "homepage": "https://github.com/afranco7/nodewithVS#readme",
   "dependencies": {
     "protractor": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "typescript": "^2.9.2"
   }
 }
