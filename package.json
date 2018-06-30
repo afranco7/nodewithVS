@@ -1,0 +1,29 @@
+{
+  "name": "nodetestvs",
+  "version": "1.0.0",
+  "description": "this is a workshop about NPM and VisualStudio",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afranco7/nodewithVS.git"
+  },
+  "keywords": [
+    "node",
+    "visual",
+    "studio",    
+    "visualStudio",
+    "protractor"
+  ],
+  "author": "Alejandro Franco afranco7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afranco7/nodewithVS/issues"
+  },
+  "homepage": "https://github.com/afranco7/nodewithVS#readme",
+  "dependencies": {
+    "protractor": "^5.3.2"
+  }
+}
